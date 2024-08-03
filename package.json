@@ -5,7 +5,9 @@
     "name": "leetcode",
     "version": "1.0.0",
     "main": "index.js",
-    "devDependencies": {},
+    "devDependencies": {
+        "@types/node": "^22.1.0"
+    },
     "scripts": {
         "prebuild": "rm -rf dist",
         "build": "tsc"
