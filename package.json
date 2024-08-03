@@ -1,5 +1,17 @@
 {
-  "dependencies": {
-    "typescript": "^5.5.4"
-  }
+    "dependencies": {
+        "typescript": "^5.5.4"
+    },
+    "name": "leetcode",
+    "version": "1.0.0",
+    "main": "index.js",
+    "devDependencies": {},
+    "scripts": {
+        "prebuild": "rm -rf dist",
+        "build": "tsc"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": ""
 }
