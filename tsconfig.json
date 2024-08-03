@@ -26,7 +26,11 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "resolveJsonModule": true,
-    "strictPropertyInitialization": false
+    "strictPropertyInitialization": false,
+    "typeRoots": [      
+      "node_modules/@types",
+      "./typings",
+    ]
   },
   "include": [
     "src/*"
