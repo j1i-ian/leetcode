@@ -9,6 +9,7 @@
         "@types/node": "^22.1.0"
     },
     "scripts": {
+        "start": "bash run.sh",
         "prebuild": "rm -rf dist",
         "build": "tsc"
     },
